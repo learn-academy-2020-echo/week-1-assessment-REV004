@@ -77,14 +77,35 @@
 // var notAString1 = true
 // var notAString2 = 42
 
-//Im confused on how run the number
+// const removeVowel= (str) => {
+// 	const peskyVowels = ['a', 'e', 'i', 'o', 'u',]
+// 	let Array = str.split('')
+// 	let repackage = Array.filter((letters) => {
+// 		return peskyVowels.includes(letters)
+// 	})
+// 	return repackage.join('')
+// }
 
 // // --------------------6) Create a function that takes the toonimals array and returns an array with only the toon objects that are cats.
 // // Expected output: [ { name: "Stimpy", animal: "cat" }, { name: "Scratchy", animal: "cat" }, { name: "Felix", animal: "cat" } ]
 
 // var toonimals = [ { name: "Itchy", animal: "mouse" }, { name: "Stimpy", animal: "cat" }, { name: "Daffy", animal: "duck" }, { name: "Scratchy", animal: "cat" }, { name: "Ren", animal: "dog" }, { name: "Felix", animal: "cat" }]
 
+// const findCats = (array) => {
+//     catsOnly = array.filter(value => {
+//         return value.animal == "cat"
+//     })
+//     return catsOnly
+// }
+
+// console.log(findCats(toonAnimals))
+
 // // --------------------7) Using the toonimals variable from #6, create a function that returns only the names of the non-cats.
 // // Expected output: "Itchy" "Daffy" "Ren"
 
-// not sure where to start with this one.
+// const catFilter = (array) => {
+//     return array.filter(catFilter => {
+//       return catFilter.animal != "cat"
+//     })
+//   }
+// console.log(catFilter(toonimals))
